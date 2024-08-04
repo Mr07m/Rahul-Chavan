@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+}
+.nav_contact{
+    color: white;
+    background-color: #e93030;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.nav-item a{
+    padding: 10px 20px;
+    background-color: rgb(56, 18, 18);
+    margin: 6px 10px;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 1s linear 0.15s;
+}
+.nav-item a:hover{
+    color: #000;
+    background-color: #ec4f4f;
+} 
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+}
+
+.my_video{
+    width: 100%;
+}
+.card{
+    position: relative;
+}
+.avtar{
+    position: absolute;
+    top: -35px;
+    left: 115px;
+    margin-bottom: 20px;
+}
+.card-subtitle{
+    position: absolute;
+    top: 45px;
+    left: 140px;
+}
+.footer-row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-name{
+    float: right;
+}
+.footer-bg{
+    background-color: #611d1d;
+}
