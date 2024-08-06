@@ -71,3 +71,29 @@ html{
 .footer-bg{
     background-color: #611d1d;
 }
+
+/* star code */
+.ratings{
+    color: #ffe400;
+}
+.ratings input{
+    display: none;
+}
+.ratings label{
+    margin: 0px 7px;
+}
+.ratings input + label{
+    font-size: 25px;
+    cursor: pointer;
+    text-shadow: 1px 1px 0 #ffe400;
+}
+.ratings input:checked + label ~ label{
+    color: #838383;
+}
+.ratings label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+/*rating star end*/
+
+
